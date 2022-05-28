@@ -86,7 +86,17 @@ strong {
 /* =================
 Layout
 ================= */
-
+.calculator {
+    width: 90%
+    justify-content: right;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.4rem;
+    
+}
 .container {
     width: 90%;
     max-width: 900px;

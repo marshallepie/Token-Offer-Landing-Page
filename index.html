@@ -11,10 +11,17 @@
                     <h1>Token Offer</h1>
                     <p class="subtitle">The mAiwill app initial token offering</p>
                 </div>
-                <nav>
+               
+            </div> <!-- / .container -->
+        </header>
+        
+        <div class="container container-flex">
+            <main role="main">
+                <div class="calculator">
                     <ul>
                         <li>
-                            <input type="text" id="tokenAmount" name="maiwill">
+                            <input type="text" id="tokenAmount" name="maiwill"
+                                   maxlength="7" size="7">
                             <label for="name">mAiwill</label>
                         </li>
                         <li>
@@ -26,19 +33,13 @@
                             <label for="name">USD</label>
                         </li>
                          <li>
-                            <button type="button" id="calcButton">Calculate</button>
+                            <button type="button" id="calcButton" onclick="calcTokenAmountPriceBTC()">Calculate</button>
                         </li>
                         <li>
                             <button type="button" id="buyButton">BUY</button>
                         </li>
                     </ul>
-                </nav>
-            </div> <!-- / .container -->
-        </header>
-        
-        <div class="container container-flex">
-            <main role="main">
-                
+                </div>
                 <article class="article-featured">
                     <h2 class="article-title">The mAi Will app</h2>
                     <img src="img/maiwillappimage.png" alt="mAi Will app screen shot" class="article-image">
