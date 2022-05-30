@@ -15,8 +15,11 @@ img {
     max-width: 100%;
     display: block;
 }
-buyButton {
+.buybtn {
     background-color: lawngreen;
+}
+.calculator {
+   background-color: lawngreen;  
 }
 
 /* =================
@@ -29,10 +32,13 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+    margin: 0;
+    align-content: center;
+    padding-top: 1rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0;
 }
 
@@ -86,11 +92,19 @@ strong {
 /* =================
 Layout
 ================= */
+
+.calculator li{
+    background: lightblue;
+    padding: 0.5rem;
+    max-width: 90%;   
+}
+
+
+
 .calculator {
-    width: 90%
+    
     justify-content: right;
     display: block;
-    width: 100%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -115,7 +129,7 @@ header {
     text-align: center;
 }
 
-@media (min-width: 675px) {
+/*@media (min-width: 675px) {
     .container-flex {
         flex-direction: row;
     }
@@ -127,7 +141,7 @@ header {
     aside {
         width: 20%;
     }
-}
+}*/
 
 /* navigation */
 
@@ -145,7 +159,7 @@ nav li {
 nav input {
   width: 30%;
 }
-nav buyButton {
+buyButton {
     color: green;
     background: orange;
 }
@@ -169,7 +183,7 @@ nav a:focus {
     color: #707070;
 }
 
-@media (max-width: 675px) {
+/*@media (max-width: 675px) {
     nav ul {
         flex-direction: column;
     }
@@ -177,7 +191,7 @@ nav a:focus {
     nav li {
         margin: .5em 0;
     }
-}
+}*/
 
 /* articles */
 

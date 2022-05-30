@@ -12,6 +12,6 @@ function calcTokenAmountPriceBTC() {
   console.log(USDPrice)
   var tokenAmountPriceBTC = USDPrice / 30000  
   console.log(tokenAmountPriceBTC) 
-  document.getElementById("tokenAmountInUSD").innerHTML = USDPrice;
-  document.getElementById("tokenAmountInBTC").innerHTML = tokenAmountPriceBTC; 
+  document.getElementById("tokenAmountInUSD").innerHTML = USDPrice.toFixed(2);
+  document.getElementById("tokenAmountInBTC").innerHTML = tokenAmountPriceBTC.toFixed(8); 
 }
